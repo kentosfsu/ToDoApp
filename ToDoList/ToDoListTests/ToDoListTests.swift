@@ -1,15 +1,15 @@
 //
-//  ToDoAppTests.swift
-//  ToDoAppTests
+//  ToDoListTests.swift
+//  ToDoListTests
 //
-//  Created by 山中建人 on 2018/02/28.
+//  Created by 山中建人 on 2018/03/13.
 //  Copyright © 2018 Kento. All rights reserved.
 //
 
 import XCTest
-@testable import ToDoApp
+@testable import ToDoList
 
-class ToDoAppTests: XCTestCase {
+class ToDoListTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
