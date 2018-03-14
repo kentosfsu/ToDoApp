@@ -18,12 +18,19 @@ class AddController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+//        super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func AddPush(_ sender: UIButton) {
+        
+        if  (textField.text != nil) && textField.text != ""{
+            todoList?.append(textField.text!)
+            textField.text = ""
+            textField.placeholder = "Add more?"
+        }
     }
+    
     
     /*
     // MARK: - Navigation

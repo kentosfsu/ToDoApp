@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7580FDA205880FF0021FD36 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7580FD9205880FF0021FD36 /* AddController.swift */; };
+		D7580FDC205887B10021FD36 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7580FDB205887B10021FD36 /* Constants.swift */; };
 		D7F5BABC2058792000ACF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5BABB2058792000ACF9BE /* AppDelegate.swift */; };
 		D7F5BABE2058792000ACF9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5BABD2058792000ACF9BE /* ViewController.swift */; };
 		D7F5BAC12058792000ACF9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F5BABF2058792000ACF9BE /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D7580FD9205880FF0021FD36 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		D7580FDB205887B10021FD36 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D7F5BAB82058792000ACF9BE /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F5BABB2058792000ACF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F5BABD2058792000ACF9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				D7F5BABB2058792000ACF9BE /* AppDelegate.swift */,
 				D7F5BABD2058792000ACF9BE /* ViewController.swift */,
 				D7580FD9205880FF0021FD36 /* AddController.swift */,
+				D7580FDB205887B10021FD36 /* Constants.swift */,
 				D7F5BABF2058792000ACF9BE /* Main.storyboard */,
 				D7F5BAC52058792000ACF9BE /* Assets.xcassets */,
 				D7F5BAC72058792000ACF9BE /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7580FDC205887B10021FD36 /* Constants.swift in Sources */,
 				D7F5BABE2058792000ACF9BE /* ViewController.swift in Sources */,
 				D7F5BAC42058792000ACF9BE /* ToDoList.xcdatamodeld in Sources */,
 				D7F5BABC2058792000ACF9BE /* AppDelegate.swift in Sources */,
